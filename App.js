@@ -7,7 +7,6 @@ configDotenv()
 const app = express();
 const hostname = process.env.HOST_NAME;//'127.0.0.1';//localhost
 const port = process.env.PORT;
-console.log(4);
 app.use(express.json());//will extract data from body - so we don't ned to register to 'data' and 'end' events
 
 
