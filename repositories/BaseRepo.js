@@ -11,8 +11,6 @@ class BaseRepo {
         let subPipeline = filter(props);
         let agg = aggregation(subPipeline);
         let data = await this.model.aggregate(agg).exec();
-        //let data = await this.model.find({}).exec();
-        console.log(data);
         return data;
     }
 
