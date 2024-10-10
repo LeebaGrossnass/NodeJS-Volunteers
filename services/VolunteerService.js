@@ -15,6 +15,4 @@ class VolunteerService extends BaseService {
         }
     }
 }
-
-//module.exports = new StudentService(repo);
 export default new VolunteerService(repo);
