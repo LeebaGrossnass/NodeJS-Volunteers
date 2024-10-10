@@ -6,12 +6,6 @@ class VolunteerRepo extends BaseRepo {
     constructor(model) {
         super(model);
     }
-    // async getAll() {
-    //     let data = await this.model.find({}).exec();
-    //     console.log(data);
-    //     return data;
-
-    // }
     async get(id) {
         try {
             
